@@ -1,6 +1,7 @@
 html {
     background-image: url(D_DK5DbWkAMfHLP.jpg);
     background-size: cover;
+    background-attachment: fixed;
 
 }body{
 margin: auto;
