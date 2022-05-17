@@ -1,0 +1,264 @@
+html {
+    background-image: url(D_DK5DbWkAMfHLP.jpg);
+    background-size: cover;
+
+}body{
+margin: auto;
+background: transparent;
+transition: 1s;
+}
+.active{
+    animation-name: boom1;
+animation-duration: 1s;
+}
+.active2{
+    animation-name: speed;
+    animation-duration: 1s;
+}
+.active3{
+    animation-name: d;
+    animation-duration: 1s;
+}
+.active4{
+    animation-name: r;
+    animation-duration: 1s;
+}
+@keyframes r {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,3000px,0);
+        -ms-transform: translate3d(0,3000px,0);
+        transform: translate3d(0,3000px,0);
+    }
+    
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0,-20px,0);
+        -ms-transform: translate3d(0,-20px,0);
+        transform: translate3d(0,-20px,0);
+    }
+    75% {
+        -webkit-transform: translate3d(0,10px,0);
+        -ms-transform: translate3d(0,10px,0);
+        transform: translate3d(0,10px,0);
+    }
+    90% {
+        -webkit-transform: translate3d(0,-5px,0);
+        -ms-transform: translate3d(0,-5px,0);
+        transform: translate3d(0,-5px,0);
+    }
+    100% {
+        -webkit-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+}
+@keyframes speed{
+    0% {
+        -webkit-transform: translate3d(100%,0,0) skewX(
+    -30deg
+    );
+        -ms-transform: translate3d(100%,0,0) skewX(-30deg);
+        transform: translate3d(100%,0,0) skewX(
+    -30deg
+    );
+        opacity: 0;
+    }
+    
+    60% {
+        -webkit-transform: skewX(
+    20deg
+    );
+        -ms-transform: skewX(20deg);
+        transform: skewX(
+    20deg
+    );
+        opacity: 1;
+    }
+    80% {
+        -webkit-transform: skewX(
+    -5deg
+    );
+        -ms-transform: skewX(-5deg);
+        transform: skewX(
+    -5deg
+    );
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        opacity: 1;
+    }
+}
+@keyframes boom1{
+    0%{
+visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -80, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;}
+100%{
+    visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;
+}
+}
+@keyframes d {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%,0,0) rotate3d(0,0,1,
+    -120deg
+    );
+        -ms-transform: translate3d(-100%,0,0) rotate3d(0,0,1,-120deg);
+        transform: translate3d(-100%,0,0) rotate3d(0,0,1,
+    -120deg
+    );
+    }
+    
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+}
+@keyframes boom {
+    0% {
+        -webkit-transform: scale3d(1,1,1);
+        -ms-transform: scale3d(1,1,1);
+        transform: scale3d(1,1,1);
+    }
+    
+    30% {
+        -webkit-transform: scale3d(1.25,.75,1);
+        -ms-transform: scale3d(1.25,.75,1);
+        transform: scale3d(1.25,.75,1);
+    }
+    40% {
+        -webkit-transform: scale3d(0.75,1.25,1);
+        -ms-transform: scale3d(0.75,1.25,1);
+        transform: scale3d(0.75,1.25,1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15,.85,1);
+        -ms-transform: scale3d(1.15,.85,1);
+        transform: scale3d(1.15,.85,1);
+    }
+    65% {
+        -webkit-transform: scale3d(.95,1.05,1);
+        -ms-transform: scale3d(.95,1.05,1);
+        transform: scale3d(.95,1.05,1);
+    }
+    75% {
+        -webkit-transform: scale3d(1.05,.95,1);
+        -ms-transform: scale3d(1.05,.95,1);
+        transform: scale3d(1.05,.95,1);
+    }
+    100% {
+        -webkit-transform: scale3d(1,1,1);
+        -ms-transform: scale3d(1,1,1);
+        transform: scale3d(1,1,1);
+    }
+}
+#MOSTAFA{
+margin: auto;
+text-align: center;
+
+}
+img{
+    max-width: 200px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-top: 60px;
+    box-shadow: 0px 1px 15px 3px rgba(0, 0, 0, 0.45);
+
+}
+#mostafa{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 500px;
+    margin: auto;
+margin-top: 20px;
+    
+}
+#mostafa span{
+    color: #fff;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.93);
+font-family: 'Ubuntu', sans-serif;
+width: 0px;
+display: inline-block;
+overflow: hidden;
+white-space: nowrap;
+border-right: 1px solid #fff;
+}
+
+
+.fa-2x {
+    width: 40px;
+    height: 40px;
+    top: 3px;
+position: relative;}
+.main{
+    position: relative;
+    top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    z-index: 1;
+    padding: 0 !important;
+}
+
+.main li{
+    font-size: 45px;
+    margin-left:10px;
+    text-align: center;
+    line-height: 2.3em;
+    border-radius: 100px;
+    box-shadow: 0px 2px 17px rgba(33, 74, 209, 0.459);
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: .4s ease-out;
+min-width: 100px;
+max-height: 103px;
+margin-bottom: 10px;
+}
+
+.main li:hover .fa{
+    animation-name: boom;
+    animation-duration: 1s;
+}
+::marker {
+    font-size: 0 !important;
+    color: transparent;
+}
+
+
+.facebook{
+    color: white;
+    background: #3b5998;
+    box-shadow: 0px 2px 17px #3b5998 !important;
+
+}
+.twitter{
+
+    color: white;
+    box-shadow: 0px 2px 17px #1da1f2 !important;
+    background: #1da1f2;}
+.instagram{
+    color: white;
+    box-shadow: 0px 2px 17px #fd5949 !important;
+    background: radial-gradient(circle at 0 130%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.youtube{
+    color: white;
+    box-shadow: 0px 2px 17px #e52d27 !important;
+    background: #e52d27;
+}
+.tiktok{
+    color: white;
+    box-shadow: 0px 2px 17px #9524d6 !important;
+    background: #9524d6;
+}
